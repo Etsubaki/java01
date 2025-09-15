@@ -1,7 +1,7 @@
-INDEX VERSION 1.134+C:\Users\user\OneDrive\Desktop\pleiades\2025-06\workspace\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.134+C:\Users\user\OneDrive\Desktop\pleiades\2025-06\java01\workspace\.metadata\.plugins\org.eclipse.jdt.core
 2848869319.index
+978394185.index
+969968605.index
+3520905086.index
 1865797976.index
 3497190822.index
-969968605.index
-978394185.index
-3520905086.index
