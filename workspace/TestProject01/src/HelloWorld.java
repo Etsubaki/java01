@@ -1,0 +1,481 @@
+
+public class HelloWorld {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		//javaテキスト02 Hello World!の出力
+		System.out.println("Hello World!");
+		
+		//javaテキスト03
+		System.out.println("こんにちは！");
+		
+		System.out.println(123);
+		
+		System.out.println("おはよう");
+		
+		System.out.println(0);
+		
+		System.out.println("例外が発生しました");
+		
+		System.out.println("例外が");
+		System.out.println("発生しました");
+		
+		System.out.println("例外が\r\n発生しました");
+		
+		//javaテキスト04
+		int suugaku = 45;
+		int eigo = 82;
+		
+		if (suugaku > 50 || eigo > 50);{
+			System.out.println("この人は合格です");
+		}
+		
+		String name = "高橋";
+		System.out.println(name);
+		
+		String str1 ="鈴木";
+		System.out.println(str1);
+		
+		String str2 ="Tanaka";
+		System.out.println(str2);
+		
+		String tel ="090-1234-5678";
+		System.out.println(tel);
+		
+		char char1 ='A';
+		System.out.println(char1);
+		
+		int num1 = 12345;
+		System.out.println(num1);
+		
+		boolean boo = true;
+		System.out.println(boo);
+		
+		int a =3+3;
+		System.out.println(a);
+		
+		char a1 ='A';
+		System.out.println(a1);
+		
+		String abc ="山田";
+		System.out.println(abc + "さん");
+		
+		// 2025/08/24  進捗  java テキスト1～4
+		
+		
+		
+		//javaテキスト05
+		
+		int a2 =3+3;
+		System.out.println(a2)	;
+		
+		int a3 =4+3;
+		System.out.println(a3)	;
+		
+		int a4 =-8-3;
+		System.out.println(a4)	;
+		
+		int a5 =-5*3;
+		System.out.println(a5)	;
+		
+		int a6 =4/2;
+		System.out.println(a6)	;
+		
+		int a7 =4/1;
+		System.out.println(a7)	;
+		
+		int a8 =0/4;
+		System.out.println(a8)	;
+		
+		float a9 =(float)10/3;
+		System.out.println(a9)	;
+		
+		//様々な割り算
+		float a10 = 5/2;
+		System.out.println(a10);
+		
+		float a11 =(float) 5/2;
+		System.out.println(a11);
+		
+		double a12 =(double)10/3;
+		System.out.println(a12);
+		
+		//剰余
+		int a13 = 7%3;
+		System.out.println(a13);
+		
+		System.out.println(5%3);
+		
+		int a14 = 6%3 ;
+		System.out.println(a14);
+		
+		
+		//javaテキスト06
+		
+		int a15=10;
+		System.out.println(++a15);
+		System.out.println(++a15);
+		System.out.println(++a15);
+		System.out.println(++a15);
+		System.out.println(++a15);
+		System.out.println(++a15);
+		
+		
+		int a16 =10;
+		System.out.println(a16++);
+		System.out.println(a16++);
+		System.out.println(a16++);
+		System.out.println(a16++);
+		
+		
+		int a17 = 10;
+		System.out.println(--a17);
+		System.out.println(--a17);
+		System.out.println(--a17);
+		System.out.println(--a17);
+		
+		int a18 = 10;
+		System.out.println(a18--);
+		System.out.println(a18--);
+		System.out.println(a18--);
+		System.out.println(a18--);
+		
+		//javaテキスト07
+		
+		int a19 = 10;
+		if(a19 < 20) {
+			System.out.println("A");
+		}
+		
+		int a20 = 30;
+		if(a20 <= 30) {
+			System.out.println("B");
+		}
+		
+		String b = "山田";
+		if(b.equals("山田")) {
+			System.out.println(b + "さん");
+		}
+		
+		int a21 = 5;
+		if(a21<10 && 3<a21) {
+			System.out.println("A");
+		}
+		
+		int a22 = 5;
+		if(a22>=5 || a22<=0) {
+			System.out.println("B");
+		}
+		
+		int a23 = 7;
+		if(a23>8) {
+			System.out.println("A");
+		}else if(a23<10) {
+			System.out.println("B");
+		}
+		
+		int a24 = 3;
+		if(a24>5) {
+			System.out.println("A");
+		}else {
+			System.out.println("Z");
+		}
+		
+		int a25= 20;
+		 if(a25<8){
+		 System.out.println( "A" );
+		 }else if(a25 == 8){
+		 System.out.println( "B" );
+		 }else{
+		 System.out.println( "C" );
+		 }
+		
+		
+		 int b2= 18;
+		 if(b2>=20){
+		 System.out.println( "成人" );
+		 }else{
+		 System.out.println( "未成年" );
+		 }
+		
+		 int age = 35;
+		 if(age < 20){
+		 System.out.println( "未成年" );
+		 }else if(age > 80){
+		 System.out.println( "高齢者" );
+		 }else{ 
+		System.out.println( "成人" );
+		 }
+		 
+		 
+		 int a26 = 5;
+		 if(a26 % 2 ==0) {
+			 System.out.println("偶数");
+		 }else {
+			 System.out.println("奇数");
+		 }
+		 
+		 //  2025/08/25  進捗  java  テキスト5～7
+		 
+		 // java テキスト08
+		 
+		 int a27 = 20;
+		 if(a27>10) {
+			 if(a<30) {
+				 System.out.println("A");
+			 }
+		 }
+		 
+		 int a28 = 50;
+		 if(a28 < 30) {
+			 if(a28 >30) {
+				 System.out.println("A");
+			 }
+		 }
+		 
+		 int a29 = 10;
+		 if(a29 > 0) {
+			if(a29 == 2) {
+				 System.out.println("A");
+			}else if (a29 == 3) {
+				System.out.println("B");
+			}else {
+				System.out.println("C");
+			}
+		 }
+		 
+		 int number = 88;
+		 if(number <= 100) {
+			 if (number < 20) {
+				 System.out.println("未成年");
+			 }else if (number == 88) {
+				 System.out.println("米寿");
+			 }else if (number == 77) {
+				 System.out.println("喜寿");
+			 }else {
+				 System.out.println("成人");
+			 }
+		 }
+		 
+		 //2025/08/26  進捗 java  テキスト8
+		 
+		 //java テキスト9
+		 
+		 int a30 = 1;
+		 switch(a30) {
+		 case 0:
+			 System.out.println("aは0に等しい");
+			 break;
+		 case 1:
+			 System.out.println("aは1に等しい");
+			 break;
+		 }
+		 
+		 int a31 = 50;
+		 switch(a31) {
+		 case 0:
+			 System.out.println("aは0に等しい");
+			 break;
+		 case 1:
+			 System.out.println("aは1に等しい");
+			 break;
+			 default:
+				 System.out.println("aは0でも1でもない");
+		 }
+		 
+		 
+		 String a32 = "赤";
+		 switch(a32) {
+		 case"赤":
+			 System.out.println("赤組です");
+			 break;
+			 
+		 case"白":
+			 System.out.println("白組です");
+			 break;
+		 }
+		 
+		 
+		 String a33 = "青";
+		 switch(a33) {
+		 case"赤":
+			 System.out.println("赤組です");
+			 break;
+			 
+		 case"白":
+			 System.out.println("白組です");
+			 break;
+		 default:
+			System.out.println("エラーです");
+		 }
+		 
+		 
+		 //java テキスト10
+		 
+		 String[]name1 = new String[3];
+		 
+		 name1[0]="田中";
+		 name1[1]="高橋";
+		 name1[2]="斎藤";
+		 
+		 System.out.println(name1[0]);
+		 
+		 String[]name2 = {"田中","高橋","斎藤"};
+		 System.out.println(name2[0]);
+		 
+		 
+		 String[]name3 = {"田中","高橋","斎藤"};
+		 name3[0]="加藤";
+		 System.out.println(name3[0]);
+		 
+		 
+		 //2025/08/26  進捗 java  テキスト9～10
+		 
+		 // java テキスト11
+		 
+		 String[][] country =
+			 {
+					 {"日本","タイ"},
+					 {"アメリカ","ブラジル"},
+					 {"フランス","ロシア"}
+			 };
+		 
+		 System.out.println(country[2][1]);
+		 
+		 String[][] country1 = new String[3][2];
+		 
+		 country1[0][0] = "日本";
+		 country1[0][1] = "タイ";
+		 country1[1][0] = "アメリカ";
+		 country1[1][1] = "ブラジル";
+		 country1[2][0] = "フランス";
+		 country1[2][1] = "ロシア";
+		 
+		 System.out.println(country1[1][1]);
+		 
+		 // java テキスト12
+		 
+		 for(int i = 1; i <= 10; i++) {
+			 System.out.println(i);
+		 }
+		 
+		 
+		 for(int i = 10; i >= 5; i--) {
+			 System.out.println(i);
+		 }
+		 
+		 for(int i = 1; i < 10; i+=2) {
+			 System.out.println(i);
+		 }
+		 
+		 for(int i = 10; i > 1; i-=2) {
+			 System.out.println(i);
+		 }
+		 
+		 for(int i = 1; i <= 5; i++) {
+			 System.out.println("★");
+		 }
+		 
+		 
+		 
+		 // javaテキスト13
+		 
+		 for(int i= 1; i <= 10; i++) {
+			 if(i % 2 == 0) {
+				 System.out.println(i);
+			 }
+		 }
+		 
+		 for(int a34 = 0; a34 < 3; a34++) {
+			 for(int b1 = 1; b1 < 4; b1++) {
+				 System.out.println(b1);
+			 }
+		 }
+		 
+		 //条件演算子
+		 
+		 int a35 = 10;
+		 
+		 String b3 = a35 >= 0 ?"プラス":"マイナス";
+		 System.out.println(b3);
+		 
+		 int a36 = 2;
+		 String b4 = a36 % 2 == 0 ? "偶数":"奇数";
+		 System.out.println(b4);
+		 
+		 for(int i = 0; i <= 5; i++) {
+			 String b5 = i % 2 ==0 ? "☆":"★";
+			 System.out.println(b5);
+		 }
+		 
+		 // java テキスト14
+		 
+		 int i = 0;
+		 while(i <= 10) {
+			 System.out.println(i);
+			 i++;
+		 }
+		 
+		 int i1 = 10;
+		 while(i1 >= 5) {
+			 System.out.println(i1);
+			 i1--;
+		 }
+		 
+		 int i2 = 1;
+		 while(i2 <= 10) {
+			 System.out.println(i2);
+			 i2+=3;
+		 }
+		 
+		 int i3 = 10;
+		 while(i3 >=1) {
+			 System.out.println(i3);
+			 i3-=2;
+		 }
+		 
+		 int i4 = 1;
+		 while(i4 <= 5) {
+			 System.out.println("★");
+			 i4++;
+		 }
+		 
+		 // 2025/08/31 java  テキスト  11～14
+		 
+		 // java  テキスト15
+		 
+		 int i5 = 1;
+		 do{
+			 System.out.println(i5);
+			 i5--;
+		 }while(i5 > 1);
+		 
+		 int i6 = 0;
+		 do{
+			 System.out.println(i6);
+			 i6++;
+		 }while(i6 < 10);
+		 
+		 int i7 = 1;
+		 do{
+			 System.out.println(i7);
+			 i7 += 2;
+		 }while(i7 <= 10);
+		 
+		 // 2025/09/02 java テキスト  15
+		 
+		 // java  テキスト16  死ね カス ゴミ 死ね
+		 
+		 // java テキスト17
+		 
+		 // 2025/09/07 java　テキスト 16～17
+		 
+		 // 2025/09/08 java テキスト  17
+		 
+	}
+	
+
+}
